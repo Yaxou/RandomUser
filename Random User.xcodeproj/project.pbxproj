@@ -14,6 +14,10 @@
 		FA2C5BE8201758D900084462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2C5BE6201758D900084462 /* LaunchScreen.storyboard */; };
 		FA2C5BF3201758D900084462 /* Random_UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C5BF2201758D900084462 /* Random_UserTests.swift */; };
 		FA2C5BFE201758D900084462 /* Random_UserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C5BFD201758D900084462 /* Random_UserUITests.swift */; };
+		FA2C5C0E201758F600084462 /* exercice_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C5C0B201758F600084462 /* exercice_3.swift */; };
+		FA2C5C0F201758F600084462 /* exercice_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C5C0C201758F600084462 /* exercice_4.swift */; };
+		FA2C5C10201758F600084462 /* exercice_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C5C0D201758F600084462 /* exercice_5.swift */; };
+		FAE4DC0D20176EB10072F0AA /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4DC0C20176EB10072F0AA /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		FA2C5BF9201758D900084462 /* Random UserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Random UserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2C5BFD201758D900084462 /* Random_UserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random_UserUITests.swift; sourceTree = "<group>"; };
 		FA2C5BFF201758D900084462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2C5C0B201758F600084462 /* exercice_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = exercice_3.swift; path = "../../../../Downloads/swift_cours-master/appli_cours_1/is it email/is it email/exercice_3.swift"; sourceTree = "<group>"; };
+		FA2C5C0C201758F600084462 /* exercice_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = exercice_4.swift; path = "../../../../Downloads/swift_cours-master/appli_cours_1/is it email/is it email/exercice_4.swift"; sourceTree = "<group>"; };
+		FA2C5C0D201758F600084462 /* exercice_5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = exercice_5.swift; path = "../../../../Downloads/swift_cours-master/appli_cours_1/is it email/is it email/exercice_5.swift"; sourceTree = "<group>"; };
+		FAE4DC0C20176EB10072F0AA /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				FA2C5BDD201758D900084462 /* AppDelegate.swift */,
 				FA2C5BDF201758D900084462 /* ViewController.swift */,
+				FAE4DC0C20176EB10072F0AA /* ModalViewController.swift */,
+				FA2C5C0B201758F600084462 /* exercice_3.swift */,
+				FA2C5C0C201758F600084462 /* exercice_4.swift */,
+				FA2C5C0D201758F600084462 /* exercice_5.swift */,
 				FA2C5BE1201758D900084462 /* Main.storyboard */,
 				FA2C5BE4201758D900084462 /* Assets.xcassets */,
 				FA2C5BE6201758D900084462 /* LaunchScreen.storyboard */,
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2C5C10201758F600084462 /* exercice_5.swift in Sources */,
+				FA2C5C0E201758F600084462 /* exercice_3.swift in Sources */,
 				FA2C5BE0201758D900084462 /* ViewController.swift in Sources */,
+				FA2C5C0F201758F600084462 /* exercice_4.swift in Sources */,
+				FAE4DC0D20176EB10072F0AA /* ModalViewController.swift in Sources */,
 				FA2C5BDE201758D900084462 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +521,7 @@
 				FA2C5C04201758D900084462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA2C5C05201758D900084462 /* Build configuration list for PBXNativeTarget "Random UserTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				FA2C5C07201758D900084462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA2C5C08201758D900084462 /* Build configuration list for PBXNativeTarget "Random UserUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				FA2C5C0A201758D900084462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
